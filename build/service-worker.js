@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Yahya-Alshamy/token.git/precache-manifest.3d8bfbd9a7dcf734b01db7b32af79c75.js"
+  "/ya-token/precache-manifest.fd18d0ec3191fb9458463ec56134dba1.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Yahya-Alshamy/token.git/index.html", {
+workbox.routing.registerNavigationRoute("/ya-token/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
