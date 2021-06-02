@@ -1,8 +1,9 @@
 {
+  "homepage":"https://github.com/Yahya-Alshamy/token.git",
   "name": "eth-swap",
   "version": "0.1.0",
   "description": "An Instant ERC-20 Cryptocurrency Exchange",
-  "author": "gregory@dappuniversity.com",
+  "author": "Scimitar",
   "dependencies": {
     "@truffle/hdwallet-provider": "^1.4.0",
     "babel-polyfill": "6.26.0",
@@ -24,6 +25,8 @@
     "web3": "1.0.0-beta.55"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
